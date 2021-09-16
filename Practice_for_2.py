@@ -1,4 +1,4 @@
 string = input('Введите строку')
-for bukva in string:
-    print(bukva)
+for letter in string:
+    print(letter)
      

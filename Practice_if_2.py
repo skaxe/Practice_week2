@@ -11,7 +11,7 @@ def string_qualifier(string1, string2):
     elif  string1 != string2 and len(string1) > len(string2):
         return 2
     
-    elif 'learn' in string2 and string1 != string2:
+    elif string2 =='learn' and string1 != string2:
         return 3
 string1 = 'learn'
 string2 = 'learn'

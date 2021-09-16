@@ -22,4 +22,4 @@ for school_class in school:
     school_average_rating += result[1]
     class_number += 1
     
-print(f'Средняя оценка по школе: {school_average_rating}')   
+print(f'Средняя оценка по школе: {school_average_rating/len(school)}')   

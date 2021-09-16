@@ -5,6 +5,7 @@ def Hello_user():
 
             if user_say == 'хорошо':
                 print('Отличного дня!')
+                break
             else:
                 print('Скажи "Хорошо", тогда я прекращу')
         except KeyboardInterrupt:
